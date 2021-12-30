@@ -1,0 +1,42 @@
+{
+  "name": "client",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "ipfs": "^0.60.2",
+    "ipfs-http-client": "^54.0.2",
+    "js-ipfs": "^0.0.301",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-router": "^6.1.1",
+    "react-router-config": "^5.1.1",
+    "react-router-dom": "^6.1.1",
+    "react-scripts": "3.4.1",
+    "react-table": "^7.7.0",
+    "web3": "^1.2.8"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

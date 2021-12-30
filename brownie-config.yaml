@@ -1,0 +1,17 @@
+dotenv: .env 
+project_structure:
+    build: client/src/artifacts
+dev_deployment_artifacts: true
+infura:
+  id: ${INFURA_PROJECT_ID}
+  secret: ${INFURA_PROJECT_SECRET}
+wallets:
+  private_key: ${PRIVATE_KEY}
+networks:
+  default: development
+  ganache:
+    verify: False
+  development:
+    verify: False
+  rinkeby:
+    verify: True
